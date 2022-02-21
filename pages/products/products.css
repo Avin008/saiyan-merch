@@ -1,13 +1,9 @@
-/* container-main */
-
 .container-main {
   margin: 0 1rem;
   margin-top: 5rem;
   display: grid;
   grid-template-columns: 0.3fr 1fr;
 }
-
-/* filter */
 
 .filter {
   width: 15.625rem;
@@ -49,14 +45,12 @@
   padding: 0.2rem;
 }
 
-/* content heading span */
+/* card section heading span */
 
 .content__span {
   font-weight: 500;
   font-size: 1rem;
 }
-
-/* product cards container */
 
 .product__card__container {
   display: grid;
