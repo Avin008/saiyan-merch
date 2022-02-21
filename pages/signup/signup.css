@@ -1,10 +1,8 @@
 :root {
-  /* signup form */
   --signup-form-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   --signup-form-bg: white;
   --signup-form-btn-primary-bg: #007bff;
   --signup-form-btn-color: white;
-  /* signup form end */
 }
 
 .signup-form-container {
