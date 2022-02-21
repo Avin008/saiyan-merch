@@ -3,16 +3,12 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css");
 
 :root {
-  /* explore cards */
   --body-background-color: #f7f7f7;
   --explore-card-bg-color: #ffff;
   --explore-card-btn-bg: #404040;
   --explore-card-btn-color: #fff;
   --explore-card-shadow: 0px 8px 24px #959da533;
-  /* explore cards end */
 }
-
-/* header */
 
 .header {
   margin: 0 1rem;
@@ -24,8 +20,6 @@
   border-radius: 0.6rem;
 }
 
-/* main  container*/
-
 .main-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -35,14 +29,12 @@
   gap: 2rem;
 }
 
-/* main heading */
-
 .main-heading {
   text-align: center;
   font-weight: 500;
 }
 
-/* explore card */
+/* explore cards */
 .saiyan-explore-card {
   border-radius: 0.6rem;
   background-color: var(--explore-card-bg-color);
