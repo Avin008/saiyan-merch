@@ -1,17 +1,11 @@
-/* cart container */
-
 .cart-container {
   margin-top: 5rem;
 }
-
-/* cart header container */
 
 .cart__header__container {
   display: flex;
   justify-content: center;
 }
-
-/* cart card content container */
 
 .cart__content__container {
   display: flex;
