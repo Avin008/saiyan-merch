@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css");
+
+:root {
+  /* explore cards */
+  --body-background-color: #f7f7f7;
+  --explore-card-bg-color: #ffff;
+  --explore-card-btn-bg: #404040;
+  --explore-card-btn-color: #fff;
+  --explore-card-shadow: 0px 8px 24px #959da533;
+  /* explore cards end */
+}
+
+/* header */
+
+.header {
+  margin: 0 1rem;
+  margin-top: 5.5rem;
+}
+
+.header__img {
+  width: 100%;
+  border-radius: 0.6rem;
+}
+
+/* main  container*/
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin: 0.5rem 2rem;
+  margin-bottom: 1rem;
+  gap: 2rem;
+}
+
+/* main heading */
+
+.main-heading {
+  text-align: center;
+  font-weight: 500;
+}
+
+/* explore card */
+.saiyan-explore-card {
+  border-radius: 0.6rem;
+  background-color: var(--explore-card-bg-color);
+  box-shadow: var(--explore-card-shadow);
+}
+
+.saiyan-explore-card .card__img {
+  width: 100%;
+  height: auto;
+}
+
+.saiyan-explore-card .card__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.saiyan-explore-card .card__btn {
+  padding: 0.6rem;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  background-color: var(--explore-card-btn-bg);
+  color: var(--explore-card-btn-color);
+}
