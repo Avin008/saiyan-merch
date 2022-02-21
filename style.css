@@ -60,23 +60,3 @@
   background-color: var(--explore-card-btn-bg);
   color: var(--explore-card-btn-color);
 }
-
-.footer {
-  height: 13vh;
-}
-
-.links-container {
-  display: flex;
-  justify-content: space-around;
-  background-color: purple;
-  padding: 1rem;
-}
-
-.links-container > a {
-  font-weight: 600;
-  border: 1px solid black;
-  padding: 1rem;
-  text-decoration: none;
-  background-color: #404040;
-  color: white;
-}
