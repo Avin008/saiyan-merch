@@ -1,0 +1,20 @@
+/* wishlist container */
+
+.wishlist-container {
+  margin-top: 5rem;
+}
+
+/* wishlist header container */
+
+.wishlist__header__container {
+  display: flex;
+  justify-content: center;
+}
+
+/* wishlist card container */
+
+.wishlist__card__container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
