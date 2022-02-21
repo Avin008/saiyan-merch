@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link
+      rel="stylesheet"
+      href="https://wizardly-boyd-56da48.netlify.app/style.css"
+    />
+    <link rel="stylesheet" href="./products.css" />
+  </head>
+  <body>
+    <!-- ||navbar -->
+
+    <nav class="saiyan-navbar navbar-fixed">
+      <div class="navbar__brand-container">
+        <a class="navbar__brand__name navbar__links" href="#">Saiyan Shop</a>
+      </div>
+
+      <div class="navbar__search">
+        <input
+          class="navbar__searchbar"
+          type="text"
+          placeholder="Search Items"
+        />
+      </div>
+
+      <div class="navbar__list-container">
+        <ul class="navbar__list">
+          <li class="navbar__items">
+            <a href="#">
+              <div class="navbar__icon-badge">
+                <span class="navbar__badge__icon"
+                  ><i class="fa-solid fa-user"></i
+                ></span>
+              </div>
+            </a>
+          </li>
+          <li class="navbar__items">
+            <a href="#">
+              <div class="navbar__icon-badge">
+                <span class="navbar__badge__icon"
+                  ><i class="fa-solid fa-heart"></i
+                  ><span class="navbar__badge__icon-badge">3</span></span
+                >
+              </div>
+            </a>
+          </li>
+          <li class="navbar__items">
+            <a href="#">
+              <div class="navbar__icon-badge">
+                <span class="navbar__badge__icon"
+                  ><i class="fas fa-shopping-cart"></i
+                  ><span class="navbar__badge__icon-badge">3</span></span
+                >
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- nav end -->
+
+    <main class="container-main">
+      <!-- filter -->
+      <div class="filter">
+        <div class="filter-header">
+          <h3 class="heading">Filter</h3>
+          <a href="#"><h5 class="clear">Clear</h5></a>
+        </div>
+
+        <div class="filter-range">
+          <h3>Price</h3>
+          <div class="range">
+            <span>Rs. 500</span>
+            <span>Rs. 1,000</span>
+            <span>Rs. 15,00</span>
+          </div>
+          <input class="range__controller" type="range" min="500" max="1500" />
+        </div>
+
+        <div class="categories">
+          <h3>Categories</h3>
+          <div class="category">
+            <ul>
+              <li>
+                <input type="checkbox" name="checkbox" id="" checked />
+                <label for="checkbox">Tshirts</label>
+              </li>
+              <li>
+                <input type="checkbox" name="checkbox" id="" />
+                <label for="checkbox">Hoddies</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="Ratings">
+          <h3>Ratings</h3>
+          <div class="category">
+            <ul>
+              <li>
+                <input type="radio" name="same" id="radio" />
+                <label id="radio" for="radio">4 star & above</label>
+              </li>
+              <li>
+                <input type="radio" name="same" id="checkbox" />
+                <label for="radio">3 star & above</label>
+              </li>
+              <li>
+                <input type="radio" name="same" id="checkbox" />
+                <label for="radio">2 star & above</label>
+              </li>
+              <li>
+                <input type="radio" name="same" id="checkbox" />
+                <label for="radio">1 star & above</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="Ratings">
+          <h3>Sort By</h3>
+          <div class="category">
+            <ul>
+              <li>
+                <input type="radio" name="same" id="radio" />
+                <label id="radio" for="radio">High to Low</label>
+              </li>
+              <li>
+                <input type="radio" name="same" id="checkbox" />
+                <label for="radio">Low to High</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- filter container end -->
+
+      <div class="content-main">
+        <h3 class="content__heading">
+          Showing All Products
+          <span class="content__span">(showing 12 products)</span>
+        </h3>
+        <div class="product__card__container">
+          <!-- card  -->
+          <div class="saiyan-vertical-card">
+            <img class="card__img" src="/Assets/img/img13.webp" alt="image" />
+
+            <div class="card__body">
+              <h3 class="card__heading">Free Authority</h3>
+              <h4 class="card__subtext">Dragon Ball Z</h4>
+              <div class="card__price__container">
+                <span class="card__price">Rs. 599</span>
+                <span class="card__price__stricked">Rs. 1499</span>
+                <span class="card__price__discount">(60% OFF)</span>
+              </div>
+              <div class="card__actions">
+                <a class="card__btn card__btn--primary" href="#"
+                  ><i class="fa-solid fa-cart-arrow-down"></i> Go to Cart</a
+                >
+
+                <div class="card__like__btn">
+                  <div class="card__badge card__icon__badge">
+                    <span class="card__badge__icon"
+                      ><i class="fa-solid fa-heart"></i
+                    ></span>
+                  </div>
+
+                  <div class="ratings">
+                    <span
+                      >4.3 <i class="fa-solid fa-star ratings__icon"></i> |
+                      1.1k</span
+                    >
+                  </div>
+
+                  <div class="card__popularity__badge__container">
+                    <span class="card__popularity__badge">New Season</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="saiyan-vertical-card">
+            <img class="card__img" src="/Assets/img/img3.webp" alt="image" />
+
+            <div class="card__body">
+              <h3 class="card__heading">Free Authority</h3>
+              <h4 class="card__subtext">Dragon Ball Z</h4>
+              <div class="card__price__container">
+                <span class="card__price">Rs. 599</span>
+                <span class="card__price__stricked">Rs. 1499</span>
+                <span class="card__price__discount">(60% OFF)</span>
+              </div>
+              <div class="card__actions">
+                <a class="card__btn card__btn__secondary" href="#"
+                  ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a
+                >
+
+                <div class="card__like__btn">
+                  <div class="card__badge card__icon__badge">
+                    <span class="card__badge__icon"
+                      ><i class="fa-regular fa-heart"></i
+                    ></span>
+                  </div>
+
+                  <div class="ratings">
+                    <span
+                      >4.3 <i class="fa-solid fa-star ratings__icon"></i> |
+                      1.1k</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="saiyan-vertical-card">
+            <img class="card__img" src="/Assets/img/img6.webp" alt="image" />
+
+            <div class="card__body">
+              <h3 class="card__heading">Free Authority</h3>
+              <h4 class="card__subtext">Dragon Ball Z</h4>
+              <div class="card__price__container">
+                <span class="card__price">Rs. 599</span>
+                <span class="card__price__stricked">Rs. 1499</span>
+                <span class="card__price__discount">(60% OFF)</span>
+              </div>
+              <div class="card__actions">
+                <a class="card__btn card__btn__secondary" href="#"
+                  ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a
+                >
+
+                <div class="card__like__btn">
+                  <div class="card__badge card__icon__badge">
+                    <span class="card__badge__icon"
+                      ><i class="fa-regular fa-heart"></i
+                    ></span>
+                  </div>
+
+                  <div class="ratings">
+                    <span
+                      >4.3 <i class="fa-solid fa-star ratings__icon"></i> |
+                      1.1k</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="saiyan-vertical-card">
+            <img class="card__img" src="/Assets/img/img7.jpg" alt="image" />
+
+            <div class="card__body">
+              <h3 class="card__heading">Free Authority</h3>
+              <h4 class="card__subtext">Dragon Ball Z</h4>
+              <div class="card__price__container">
+                <span class="card__price">Rs. 599</span>
+                <span class="card__price__stricked">Rs. 1499</span>
+                <span class="card__price__discount">(60% OFF)</span>
+              </div>
+              <div class="card__actions">
+                <a class="card__btn card__btn__secondary" href="#"
+                  ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a
+                >
+
+                <div class="card__like__btn">
+                  <div class="card__badge card__icon__badge">
+                    <span class="card__badge__icon"
+                      ><i class="fa-regular fa-heart"></i
+                    ></span>
+                  </div>
+
+                  <div class="ratings">
+                    <span
+                      >4.3 <i class="fa-solid fa-star ratings__icon"></i> |
+                      1.1k</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="saiyan-vertical-card">
+            <img class="card__img" src="/Assets/img/img8.webp" alt="image" />
+
+            <div class="card__body">
+              <h3 class="card__heading">Free Authority</h3>
+              <h4 class="card__subtext">Dragon Ball Z</h4>
+              <div class="card__price__container">
+                <span class="card__price">Rs. 599</span>
+                <span class="card__price__stricked">Rs. 1499</span>
+                <span class="card__price__discount">(60% OFF)</span>
+              </div>
+              <div class="card__actions">
+                <a class="card__btn card__btn__secondary" href="#"
+                  ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a
+                >
+
+                <div class="card__like__btn">
+                  <div class="card__badge card__icon__badge">
+                    <span class="card__badge__icon"
+                      ><i class="fa-regular fa-heart"></i
+                    ></span>
+                  </div>
+
+                  <div class="ratings">
+                    <span
+                      >4.3 <i class="fa-solid fa-star ratings__icon"></i> |
+                      1.1k</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="saiyan-vertical-card">
+            <img class="card__img" src="/Assets/img/img9.webp" alt="image" />
+
+            <div class="card__body">
+              <h3 class="card__heading">Free Authority</h3>
+              <h4 class="card__subtext">Dragon Ball Z</h4>
+              <div class="card__price__container">
+                <span class="card__price">Rs. 599</span>
+                <span class="card__price__stricked">Rs. 1499</span>
+                <span class="card__price__discount">(60% OFF)</span>
+              </div>
+              <div class="card__actions">
+                <a class="card__btn card__btn__secondary" href="#"
+                  ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a
+                >
+
+                <div class="card__like__btn">
+                  <div class="card__badge card__icon__badge">
+                    <span class="card__badge__icon"
+                      ><i class="fa-regular fa-heart"></i
+                    ></span>
+                  </div>
+
+                  <div class="ratings">
+                    <span
+                      >4.3 <i class="fa-solid fa-star ratings__icon"></i> |
+                      1.1k</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="saiyan-vertical-card">
+            <img class="card__img" src="/Assets/img/img10.webp" alt="image" />
+
+            <div class="card__body">
+              <h3 class="card__heading">Free Authority</h3>
+              <h4 class="card__subtext">Dragon Ball Z</h4>
+              <div class="card__price__container">
+                <span class="card__price">Rs. 599</span>
+                <span class="card__price__stricked">Rs. 1499</span>
+                <span class="card__price__discount">(60% OFF)</span>
+              </div>
+              <div class="card__actions">
+                <a class="card__btn card__btn__secondary" href="#"
+                  ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a
+                >
+
+                <div class="card__like__btn">
+                  <div class="card__badge card__icon__badge">
+                    <span class="card__badge__icon"
+                      ><i class="fa-regular fa-heart"></i
+                    ></span>
+                  </div>
+
+                  <div class="ratings">
+                    <span
+                      >4.3 <i class="fa-solid fa-star ratings__icon"></i> |
+                      1.1k</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="saiyan-vertical-card">
+            <img class="card__img" src="/Assets/img/img2.webp" alt="image" />
+
+            <div class="card__body">
+              <h3 class="card__heading">Free Authority</h3>
+              <h4 class="card__subtext">Dragon Ball Z</h4>
+              <div class="card__price__container">
+                <span class="card__price">Rs. 599</span>
+                <span class="card__price__stricked">Rs. 1499</span>
+                <span class="card__price__discount">(60% OFF)</span>
+              </div>
+              <div class="card__actions">
+                <a class="card__btn card__btn__secondary" href="#"
+                  ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a
+                >
+
+                <div class="card__like__btn">
+                  <div class="card__badge card__icon__badge">
+                    <span class="card__badge__icon"
+                      ><i class="fa-regular fa-heart"></i
+                    ></span>
+                  </div>
+
+                  <div class="ratings">
+                    <span
+                      >4.3 <i class="fa-solid fa-star ratings__icon"></i> |
+                      1.1k</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="saiyan-vertical-card">
+            <img class="card__img" src="/Assets/img/img12.jpg" alt="image" />
+
+            <div class="card__body">
+              <h3 class="card__heading">Free Authority</h3>
+              <h4 class="card__subtext">Dragon Ball Z</h4>
+              <div class="card__price__container">
+                <span class="card__price">Rs. 599</span>
+                <span class="card__price__stricked">Rs. 1499</span>
+                <span class="card__price__discount">(60% OFF)</span>
+              </div>
+              <div class="card__actions">
+                <a class="card__btn card__btn__secondary" href="#"
+                  ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a
+                >
+
+                <div class="card__like__btn">
+                  <div class="card__badge card__icon__badge">
+                    <span class="card__badge__icon"
+                      ><i class="fa-regular fa-heart"></i
+                    ></span>
+                  </div>
+
+                  <div class="ratings">
+                    <span
+                      >4.3 <i class="fa-solid fa-star ratings__icon"></i> |
+                      1.1k</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="saiyan-vertical-card">
+            <img class="card__img" src="/Assets/img/img13.webp" alt="image" />
+
+            <div class="card__body">
+              <h3 class="card__heading">Free Authority</h3>
+              <h4 class="card__subtext">Dragon Ball Z</h4>
+              <div class="card__price__container">
+                <span class="card__price">Rs. 599</span>
+                <span class="card__price__stricked">Rs. 1499</span>
+                <span class="card__price__discount">(60% OFF)</span>
+              </div>
+              <div class="card__actions">
+                <a class="card__btn card__btn__secondary" href="#"
+                  ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a
+                >
+
+                <div class="card__like__btn">
+                  <div class="card__badge card__icon__badge">
+                    <span class="card__badge__icon"
+                      ><i class="fa-regular fa-heart"></i
+                    ></span>
+                  </div>
+
+                  <div class="ratings">
+                    <span
+                      >4.3 <i class="fa-solid fa-star ratings__icon"></i> |
+                      1.1k</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="saiyan-vertical-card">
+            <img class="card__img" src="/Assets/img/img4.webp" alt="image" />
+
+            <div class="card__body">
+              <h3 class="card__heading">Free Authority</h3>
+              <h4 class="card__subtext">Dragon Ball Z</h4>
+              <div class="card__price__container">
+                <span class="card__price">Rs. 599</span>
+                <span class="card__price__stricked">Rs. 1499</span>
+                <span class="card__price__discount">(60% OFF)</span>
+              </div>
+              <div class="card__actions">
+                <a class="card__btn card__btn__secondary" href="#"
+                  ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a
+                >
+
+                <div class="card__like__btn">
+                  <div class="card__badge card__icon__badge">
+                    <span class="card__badge__icon"
+                      ><i class="fa-regular fa-heart"></i
+                    ></span>
+                  </div>
+
+                  <div class="ratings">
+                    <span
+                      >4.3 <i class="fa-solid fa-star ratings__icon"></i> |
+                      1.1k</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="saiyan-vertical-card card-overlay">
+            <img class="card__img" src="/Assets/img/img5.jpg" alt="image" />
+
+            <div class="card__body">
+              <h3 class="card__heading">Free Authority</h3>
+              <h4 class="card__subtext">Dragon Ball Z</h4>
+              <div class="card__price__container">
+                <span class="card__price">Rs. 599</span>
+                <span class="card__price__stricked">Rs. 1499</span>
+                <span class="card__price__discount">(60% OFF)</span>
+              </div>
+              <div class="card__actions">
+                <a class="card__btn card__btn__secondary" href="#"
+                  ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a
+                >
+
+                <div class="card__like__btn">
+                  <div class="card__badge card__icon__badge">
+                    <span class="card__badge__icon"
+                      ><i class="fa-regular fa-heart"></i
+                    ></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-overlay-text">
+                <div class="card-overlay-text-bg">Out of Stock</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
