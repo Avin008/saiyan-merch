@@ -1,6 +1,6 @@
-# saiyan-shop
+# Saiyan Shop
 
-# E-commerce-P0-screen
+### E-commerce-P0-screen
 
 Here you can see my screens of E-commerce app which I made with HTML and CSS.
 
