@@ -8,6 +8,7 @@
   --explore-card-btn-bg: #404040;
   --explore-card-btn-color: #fff;
   --explore-card-shadow: 0px 8px 24px #959da533;
+  --explore-card-btn-bg-color: #404040;
 }
 
 .header {
@@ -68,15 +69,15 @@
 .links-container {
   display: flex;
   justify-content: space-around;
-  background-color: purple;
+  background-color: var(--color-purple);
   padding: 1rem;
 }
 
 .links-container > a {
   font-weight: 600;
-  border: 1px solid black;
+  border: 1px solid var(--color-purple);
   padding: 1rem;
   text-decoration: none;
-  background-color: #404040;
-  color: white;
+  background-color: var(--explore-card-btn-bg-color);
+  color: var(--color-white);
 }
