@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cart | Saiyan Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://wizardly-boyd-56da48.netlify.app/style.css"
+    />
+    <link rel="stylesheet" href="./cart.css" />
+  </head>
+  <body>
+    <!-- ||navbar -->
+
+    <nav class="saiyan-navbar navbar-fixed">
+      <div class="navbar__brand-container">
+        <a class="navbar__brand__name navbar__links" href="#">Saiyan Shop</a>
+      </div>
+
+      <div class="navbar__search">
+        <input
+          class="navbar__searchbar"
+          type="text"
+          placeholder="Search Items"
+        />
+      </div>
+
+      <div class="navbar__list-container">
+        <ul class="navbar__list">
+          <li class="navbar__items">
+            <a href="#">
+              <div class="navbar__icon-badge">
+                <span class="navbar__badge__icon"
+                  ><i class="fa-solid fa-right-from-bracket"></i
+                ></span>
+              </div>
+            </a>
+          </li>
+          <li class="navbar__items">
+            <a href="#">
+              <div class="navbar__icon-badge">
+                <span class="navbar__badge__icon"
+                  ><i class="fa-solid fa-heart"></i
+                  ><span class="navbar__badge__icon-badge">5</span></span
+                >
+              </div>
+            </a>
+          </li>
+          <li class="navbar__items">
+            <a href="#">
+              <div class="navbar__icon-badge">
+                <span class="navbar__badge__icon"
+                  ><i class="fas fa-shopping-cart"></i
+                  ><span class="navbar__badge__icon-badge">2</span></span
+                >
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- nav end -->
+
+    <div class="cart-container">
+      <div class="cart__header__container">
+        <h2 class="cart__heading">MY CART (2)</h2>
+      </div>
+
+      <div class="cart__content__container">
+        <div class="saiyan-horizontal-card">
+          <div class="card__img__container">
+            <img
+              class="card__img"
+              src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16847642/2022/1/17/aa0a749a-626d-417a-bb24-fadaf529d5371642413360328BushirtAnimeT-Shirts1.jpg"
+              alt="cart-img"
+            />
+          </div>
+
+          <div class="saiyan-horizontal-card__body">
+            <h3>Men Premium Tshirt</h3>
+            <h1 class="card__price">
+              Rs. 799
+              <span class="card__price__stricked">Rs.1599</span>
+            </h1>
+            <h2 class="card__price__discount">50% off</h2>
+
+            <div class="card__quantity">
+              <span>Quantity:</span>
+              <span
+                ><button class="card__quantity__btn card__quantity__btn--minus">
+                  -
+                </button>
+                <input
+                  class="card__quantity__box"
+                  type="text"
+                  name=""
+                  id=""
+                  value="2"
+                  readonly
+                />
+                <button class="card__quantity__btn card__quantity__btn--plus">
+                  +
+                </button></span
+              >
+            </div>
+
+            <div class="card__CTA__container">
+              <a class="card__CTA__btn card__CTA__btn--primary" href="#"
+                >Remove From Cart</a
+              >
+              <a class="card__CTA__btn card__CTA__btn--secondary" href="#"
+                >Move to Wishlist</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- checkout -->
+
+        <div class="checkout-card">
+          <h3>PRICE DETAILS</h3>
+          <hr />
+          <span class="span__container"
+            ><span>price (2 items)</span><span>Rs. 1598</span></span
+          >
+          <span class="span__container"
+            ><span>Discount</span><span>Rs. 300</span></span
+          >
+          <span class="span__container"
+            ><span>Delivery Charge</span><span>Rs. 49</span></span
+          >
+
+          <hr />
+
+          <span class="amount__container"
+            ><h4>TOTAL AMOUNT</h4>
+            <h4>Rs. 1374</h4></span
+          >
+          <hr />
+          <h4>You will save 1899 on this order</h4>
+
+          <div class="CTA-container">
+            <a class="CTA__btn" href="#">PLACE ORDER</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
