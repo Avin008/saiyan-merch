@@ -18,7 +18,7 @@ In this page you can see differant categories at the bottom of the page click on
 
 You will find product listing page with filters on https://saiyanshop.netlify.app/pages/products/products.html
 
-In this page you will all my products with filters
+In this page you will see all products with filters
 
 ---
 
@@ -32,9 +32,9 @@ In this page you find two cards one on the left with a item and other on the rig
 
 ### Wishlist management 
 
-You will find cart management on https://saiyanshop.netlify.app/pages/wishlist/wishlist.html
+You will find Wishlist management on https://saiyanshop.netlify.app/pages/wishlist/wishlist.html
 
-In this page you will see all wishlist product.
+In this page you will see all wishlisted products.
 
 ---
 
@@ -45,7 +45,7 @@ You will find Login page on https://saiyanshop.netlify.app/pages/login/login.htm
 You will find signup page on https://saiyanshop.netlify.app/pages/signup/signup.html
 
 
-In this pages you will find login and sign up pages
+In these pages you will find login and sign up pages
 
 ---
 
