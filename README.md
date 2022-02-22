@@ -2,9 +2,7 @@
 
 ### E-commerce-P0-screen
 
-Here you can see my screens of E-commerce app which I made with HTML and CSS.
-
-- All P0 scrrens are available
+- All P0 Screens are available
 
 ### Home page
 
